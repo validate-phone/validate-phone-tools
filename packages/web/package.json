@@ -1,0 +1,38 @@
+{
+  "name": "@validate-phone/web",
+  "version": "1.2.0",
+  "description": "",
+  "source": "src/index.ts",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf dist && microbundle",
+    "dev": "microbundle watch"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/validate-phone/web.git"
+  },
+  "keywords": [
+    "front-end",
+    "phone",
+    "validation",
+    "web"
+  ],
+  "author": "Denes Pal <dsdenes@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/validate-phone/validate-phone-tools/issues"
+  },
+  "homepage": "https://github.com/validate-phone/validate-phone-tools#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "jest": "^27.0.6",
+    "microbundle": "^0.13.3"
+  }
+}
