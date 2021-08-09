@@ -31,5 +31,6 @@
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
     "microbundle": "^0.13.3"
-  }
+  },
+  "gitHead": "2ee414be97155cee2fccb6f9c87648a98cf03131"
 }
