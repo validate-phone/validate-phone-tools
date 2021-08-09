@@ -6,9 +6,7 @@
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "jest",
-    "build": "rm -rf dist && microbundle",
-    "dev": "microbundle watch"
+    "build": "microbundle --format cjs"
   },
   "browserslist": [
     "defaults",
@@ -32,7 +30,6 @@
   "homepage": "https://github.com/validate-phone/validate-phone-tools#readme",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
-    "jest": "^27.0.6",
     "microbundle": "^0.13.3"
   }
 }

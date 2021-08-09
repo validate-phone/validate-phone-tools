@@ -1,0 +1,51 @@
+{
+  "name": "@validate-phone/antd-input",
+  "version": "1.2.0",
+  "description": "Simple phone input component with built in validation as standard Ant.Design form item",
+  "main": "./dist/index.js",
+  "module": "./dist/index.m.js",
+  "exports": "./dist/index.modern.js",
+  "source": "./src/index.tsx",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "microbundle --format modern,es,cjs --jsx React.createElement",
+    "start": "microbundle watch --format modern,es,cjs --jsx React.createElement"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/validate-phone/web.git"
+  },
+  "keywords": [
+    "front-end",
+    "phone",
+    "validation",
+    "web"
+  ],
+  "author": "Denes Pal <dsdenes@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/validate-phone/validate-phone-tools/issues"
+  },
+  "homepage": "https://github.com/validate-phone/validate-phone-tools#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^17.0.16",
+    "microbundle": "^0.13.3"
+  },
+  "peerDependencies": {
+    "antd": "4.x",
+    "react": ">= 16.8.0 || 17.x"
+  },
+  "dependencies": {
+    "@validate-phone/web": "^1.2.0",
+    "use-debounce": "^7.0.0"
+  }
+}
