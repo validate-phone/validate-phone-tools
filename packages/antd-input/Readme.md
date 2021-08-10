@@ -1,9 +1,10 @@
 # Validate phone numbers for web
 
 - <1Kb
-- Zero-dependency
+- Zero Dependency
+- Fetch API
 - Utilizes validatephonenumber.com free API
-- Compatible with all modern browsers
+- Compatible with all major modern browsers
 
 ## How to use
 
