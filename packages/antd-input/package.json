@@ -1,6 +1,6 @@
 {
   "name": "@validate-phone/antd-input",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Simple phone input component with built in validation as standard Ant.Design form item",
   "main": "./dist/index.js",
   "module": "./dist/index.m.js",
