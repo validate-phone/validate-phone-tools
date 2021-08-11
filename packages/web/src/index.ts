@@ -7,7 +7,7 @@ export async function isValidPhoneNumber(
   phoneNumber: string,
   countryCode?: string
 ): Promise<boolean> {
-  const url = new URL(`http://212.47.246.123:8120/${encodeURIComponent(phoneNumber)}`)
+  const url = new URL(`https://api.validatephonenumber.com/${encodeURIComponent(phoneNumber)}`)
   if (countryCode !== undefined) {
     url.searchParams.append('countryCode', countryCode)
   }
