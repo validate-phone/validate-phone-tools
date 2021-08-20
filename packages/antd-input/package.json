@@ -46,7 +46,8 @@
   },
   "dependencies": {
     "@validate-phone/web": "^1.4.0",
+    "lodash": "^4.17.21",
     "use-debounce": "^7.0.0"
   },
-  "gitHead": "fa553c67c68257a2b2a74bf856ae5465cb8260e2"
+  "gitHead": "f4d84cc4ed911900f1fcf08562361f13d868e0d2"
 }

@@ -15,7 +15,10 @@ export interface PhoneInputFormItemProps extends FormItemProps {
   errorMessage?: string
 }
 
-export const PhoneInputFormItem: React.FC<PhoneInputFormItemProps> = (props) => {
+export const PhoneInputFormItem: React.FC<PhoneInputFormItemProps> = ({
+  errorMessage,
+  ...props
+}) => {
   const validatePhoneNumberRule: RuleRender = useCallback(() => {
     return {
       validator: async (_, value) => {
@@ -23,7 +26,7 @@ export const PhoneInputFormItem: React.FC<PhoneInputFormItemProps> = (props) => 
           return
         }
         if ((await isValidPhoneNumber(value)) !== true) {
-          throw new Error(props.errorMessage ? props.errorMessage : 'Incorrect phone number')
+          throw new Error(errorMessage ? errorMessage : 'Incorrect phone number')
         }
       },
       type: 'string'
