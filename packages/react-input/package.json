@@ -1,6 +1,6 @@
 {
   "name": "@validate-phone/react-input",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "",
   "source": "src/index.tsx",
   "types": "./dist/index.d.ts",
@@ -37,6 +37,6 @@
   },
   "gitHead": "f4d84cc4ed911900f1fcf08562361f13d868e0d2",
   "dependencies": {
-    "@validate-phone/web": "^1.4.1"
+    "@validate-phone/web": "^1.5.0"
   }
 }
