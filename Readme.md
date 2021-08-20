@@ -32,6 +32,6 @@ npm i @validate-phone/react-input
 npm i @validate-phone/web
 ```
 
-## Issues
+## Issues & Feedbacks
 
 https://github.com/validate-phone/validate-phone-tools/issues
