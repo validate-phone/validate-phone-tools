@@ -47,7 +47,7 @@ export const PhoneInput: React.FC<PhoneInputProps> = ({
     setValue(event.target.value)
     // If the callback is blocking
     ;(async (_event) => props.onChange?.(_event))(event)
-    if (validateOnChangeDelayed) {
+    if (validateOnChangeDelayed && validateOnChangeDelayed === undefined) {
       scheduleValidation(
         event.target.value,
         Number.isInteger(validateOnChangeDelayed) && validateOnChangeDelayed > 0

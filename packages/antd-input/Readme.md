@@ -1,25 +1,43 @@
-# Validate phone numbers for web
+# antd phone number validation input
 
-- <1Kb
-- Zero Dependency
-- Fetch API
+- Extends ant's **FormItem** and **Input** components
 - Utilizes validatephonenumber.com free API
-- Compatible with all major modern browsers
+
+## Install
+
+```
+npm i @validate-phone/antd-input
+```
 
 ## How to use
 
-### ES6
-
 ```ts
-import { isValidPhoneNumber } from '@validate-phone/web'
+import { PhoneInput, PhoneInputFormItem } from '@validate-phone/antd-input'
+import { Form } from 'antd'
 
-const isValid = await validatePhoneNumber('+123456789')
+export function MyApp() {
+  return (
+    <Form>
+      <PhoneInputFormItem
+        name="phone"
+        label="Phone number"
+        errorMessage="Please provide a valid phone number"
+        hasFeedback
+      >
+        <PhoneInput />
+      </PhoneInputFormItem>
+    </Form>
+  )
+}
 ```
 
-### CommonJS
+```ts
+export interface PhoneInputFormItemProps extends FormItemProps {
+  skipValidityCheck?: boolean
+  errorMessage?: string
+}
+```
 
-```js
-const { isValidPhoneNumber } = require('@validate-phone/web')
-
-const isValid = await validatePhoneNumber('+123456789')
+```ts
+export interface PhoneInputProps extends InputProps {}
 ```
