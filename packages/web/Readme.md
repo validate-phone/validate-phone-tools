@@ -1,6 +1,6 @@
 # Validate phone numbers for web
 
-- <1Kb
+- <1kB
 - Zero-dependency
 - Utilizes validatephonenumber.com free API
 - Compatible with all modern browsers

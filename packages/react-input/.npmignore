@@ -1,0 +1,7 @@
+dist/index.cjs.map
+dist/index.esm.js
+dist/index.esm.js.map
+dist/index.modern.js
+dist/index.modern.js.map
+dist/index.umd.js
+dist/index.umd.js.map
