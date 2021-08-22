@@ -1,8 +1,10 @@
-# Minimalistic React input component with phone number validation
+# React input component with phone number validation
 
-- <2kB
+- Minimalistic <2kB
 - Utilizes validatephonenumber.com free API
 - Compatible with all modern browsers
+
+![](example.gif)
 
 ## Install
 
