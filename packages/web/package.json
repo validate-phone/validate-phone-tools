@@ -1,6 +1,6 @@
 {
   "name": "@validate-phone/web",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "",
   "source": "src/index.ts",
   "types": "./dist/index.d.ts",
@@ -32,6 +32,5 @@
     "@tsconfig/recommended": "^1.0.1",
     "microbundle": "^0.13.3"
   },
-  "gitHead": "f4d84cc4ed911900f1fcf08562361f13d868e0d2",
-  "dependencies": {}
+  "gitHead": "f4d84cc4ed911900f1fcf08562361f13d868e0d2"
 }
