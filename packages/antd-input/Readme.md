@@ -35,6 +35,9 @@ export function MyApp() {
 export interface PhoneInputFormItemProps extends FormItemProps {
   skipValidityCheck?: boolean
   errorMessage?: string
+  // Recognise local phone numbers in country
+  // default: US
+  countryCode?: string
 }
 ```
 

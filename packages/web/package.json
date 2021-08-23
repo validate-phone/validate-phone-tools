@@ -33,7 +33,5 @@
     "microbundle": "^0.13.3"
   },
   "gitHead": "f4d84cc4ed911900f1fcf08562361f13d868e0d2",
-  "dependencies": {
-    "@validate-phone/react-input": "^1.5.0"
-  }
+  "dependencies": {}
 }

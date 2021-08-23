@@ -41,5 +41,8 @@ export interface PhoneInputProps
   // default: true
   // false if validateOnChange is true
   validateOnBlur?: boolean
+  // recognise local phone numbers in country
+  // default: US
+  countryCode?: string
 }
 ```

@@ -13,6 +13,7 @@ export interface PhoneInputFormItemProps extends FormItemProps {
   name: NamePath
   skipValidityCheck?: boolean
   errorMessage?: string
+  countryCode?: string
 }
 
 export const PhoneInputFormItem: React.FC<PhoneInputFormItemProps> = ({
@@ -25,7 +26,7 @@ export const PhoneInputFormItem: React.FC<PhoneInputFormItemProps> = ({
         if (props.skipValidityCheck) {
           return
         }
-        if ((await isValidPhoneNumber(value)) !== true) {
+        if ((await isValidPhoneNumber(value, props.countryCode)) !== true) {
           throw new Error(errorMessage ? errorMessage : 'Incorrect phone number')
         }
       },
