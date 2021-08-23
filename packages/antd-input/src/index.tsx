@@ -33,7 +33,7 @@ export const PhoneInputFormItem: React.FC<PhoneInputFormItemProps> = ({
       },
       type: 'string'
     }
-  }, [])
+  }, [countryCode])
 
   const rules = useMemo(
     () => [validatePhoneNumberRule as Rule].concat(props.rules ? props.rules : []),

@@ -9,7 +9,6 @@ function App() {
   const [valid, setValid] = useState<boolean>()
 
   function handleValidation(isValid: boolean) {
-    console.log(isValid)
     setValid(isValid)
   }
 
@@ -22,6 +21,7 @@ function App() {
             label="Phone number"
             errorMessage="Please provide a valid phone number"
             hasFeedback
+            countryCode="HU"
           >
             <AntdPhoneInput />
           </PhoneInputFormItem>
