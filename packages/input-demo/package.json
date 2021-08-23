@@ -1,6 +1,6 @@
 {
   "name": "antd-input-demo",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -10,7 +10,7 @@
     "@types/node": "^12.20.19",
     "@types/react": "^17.0.16",
     "@types/react-dom": "^17.0.9",
-    "@validate-phone/antd-input": "^1.6.2",
+    "@validate-phone/antd-input": "^1.6.3",
     "@validate-phone/react-input": "^1.6.2",
     "antd": "^4.16.11",
     "react": "^17.0.2",
