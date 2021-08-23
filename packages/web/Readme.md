@@ -12,7 +12,7 @@
 ```ts
 import { isValidPhoneNumber } from '@validate-phone/web'
 
-const isValid = await validatePhoneNumber('+123456789')
+const isValid = await validatePhoneNumber('+123456788')
 ```
 
 ### CommonJS
@@ -20,5 +20,5 @@ const isValid = await validatePhoneNumber('+123456789')
 ```js
 const { isValidPhoneNumber } = require('@validate-phone/web')
 
-const isValid = await validatePhoneNumber('+123456789')
+const isValid = await validatePhoneNumber('+123456788')
 ```
