@@ -16,6 +16,7 @@ export const PhoneInput: React.FC<PhoneInputProps> = ({
   validateOnChange,
   validateOnChangeDelayed,
   validateOnBlur,
+  countryCode,
   ...props
 }) => {
   const [value, setValue] = useState<string>()
@@ -24,7 +25,7 @@ export const PhoneInput: React.FC<PhoneInputProps> = ({
 
   async function validate(_value: string) {
     if (value !== _value) {
-      const currentValidation = isValidPhoneNumber(_value, props.countryCode)
+      const currentValidation = isValidPhoneNumber(_value, countryCode)
       lastValidation.current = currentValidation
       const isValid = await currentValidation
       if (currentValidation === lastValidation.current) {
