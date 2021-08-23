@@ -1,6 +1,6 @@
 {
   "name": "@validate-phone/antd-input",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Simple phone input component with built in validation as standard Ant.Design form item",
   "main": "./dist/index.js",
   "module": "./dist/index.m.js",
@@ -45,7 +45,7 @@
     "react": ">= 16.8.0 || 17.x"
   },
   "dependencies": {
-    "@validate-phone/react-input": "^1.6.1",
+    "@validate-phone/react-input": "^1.6.2",
     "@validate-phone/web": "^1.6.1",
     "lodash": "^4.17.21",
     "use-debounce": "^7.0.0"
